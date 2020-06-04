@@ -1,0 +1,46 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+#import string, re
+#from calibre import strftime
+from calibre.web.feeds.recipes import BasicNewsRecipe
+import time
+#from calibre.ebooks.BeautifulSoup import BeautifulSoup
+
+class AdvancedUserRecipe1588814266(BasicNewsRecipe):
+
+    title = '🗞 '  + time.strftime('%a, %d %b %Y')
+    oldest_article = 2
+    simultaneous_downloads = 20
+    max_articles_per_feed = 20
+    auto_cleanup   = True
+    remove_javascript =  True
+    #no_stylesheets = True
+    language = 'pt_BR'
+
+    feeds          = [
+        
+        (u'Nexo Jornal', u'https://www.nexojornal.com.br/rss.xml'),
+        (u'APública', u'https://apublica.org/category/portugues/feed/'),
+        (u'Le Monde Diplomatique', u'https://diplomatique.org.br/feed/'),
+        (u'The Intercept Br', u'https://theintercept.com/feed/?lang=pt'),
+        (u'El País', u'https://brasil.elpais.com/rss/brasil/portada_completo.xml'),
+        (u'Piauí', u'https://piaui.folha.uol.com.br/feed/'),
+        (u'OutrasPalavras', u'http://www.outraspalavras.net/feed/'),
+        (u'Cult',u'https://revistacult.uol.com.br/home/feed/'),
+	(u'Ubu Editora', u'https://blog.ubueditora.com.br/feed/'),
+	(u'Piseagrama', u'https://piseagrama.org/feed/'),
+	(u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
+        (u'Jacobin', u'https://jacobin.com.br/feed/'),
+        (u'Folha de SP - Poder ', u'http://feeds.folha.uol.com.br/poder/rss091.xml'),
+        (u'Folha de SP - Ciência', u'http://feeds.folha.uol.com.br/ciencia/rss091.xml'),
+        (u'Folha de SP - Monica Bergamo', u'http://feeds.folha.uol.com.br/colunas/monicabergamo/rss091.xml'),
+        (u'Folha de SP - Laura Carvalho', 'https://feeds.folha.uol.com.br/colunas/laura-carvalho/rss091.xml'),
+        (u'Folha de SP - Nelson de Sá', 'https://feeds.folha.uol.com.br/colunas/nelsondesa/rss091.xml'),
+        (u'Folha de SP - Contardo', u'http://feeds.folha.uol.com.br/colunas/contardocalligaris/rss091.xml'),
+        (u'Folha de SP - Onbudsman', u'http://feeds.folha.uol.com.br/colunas/paula-cesarino-costa-ombudsman/rss091.xml'),
+	('Câmara dos Deputados', 'https://www.camara.leg.br/noticias/rss/ultimas-noticias'),
+	#('Governo Federal', 'www.gov.br/noticias/ultimas-noticias/RSS'),
+        ('The Guardian', 'https://www.theguardian.com/international/rss'),
+        #('Le Monde', 'https://www.lemonde.fr/international/rss_full.xml'),
+    ]
