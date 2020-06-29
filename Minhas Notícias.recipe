@@ -31,6 +31,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 	(u'Ubu Editora', u'https://blog.ubueditora.com.br/feed/'),
 	(u'Piseagrama', u'https://piseagrama.org/feed/'),
 	(u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
+	(u'Revista Ópera', 'https://revistaopera.com.br/rss'),
         (u'Jacobin', u'https://jacobin.com.br/feed/'),
 	(u'Andreia Sadi | G1', u'https://g1.globo.com/rss/g1/politica/blog/andreia-sadi/'),
         (u'Folha de SP - Poder ', u'http://feeds.folha.uol.com.br/poder/rss091.xml'),
