@@ -43,6 +43,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         (u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
         (u'Revista Ópera', 'https://revistaopera.com.br/rss'),
         (u'Jacobin', u'https://jacobin.com.br/feed/'),
+	(u'Blog Boitempo', u'https://blogdaboitempo.com.br/feed'),
 	#('Governo Federal', 'www.gov.br/noticias/ultimas-noticias/RSS'),
         ('The Guardian', 'https://www.theguardian.com/international/rss'),
         #('Le Monde', 'https://www.lemonde.fr/international/rss_full.xml'),
