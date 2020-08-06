@@ -16,6 +16,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
     auto_cleanup   = True
     remove_javascript =  True
     remove_empty_feeds = True
+    compress_news_images = True
     #no_stylesheets = True
     language = 'pt_BR'
 
