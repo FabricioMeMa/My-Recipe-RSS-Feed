@@ -23,7 +23,6 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
     feeds          = [
         
         #(u'Nexo Jornal', u'https://www.nexojornal.com.br/rss.xml'),
-	https://rss.dw.com/rdf/rss-br-all
         (u'El País', u'https://feeds.elpais.com/mrss-s/pages/ep/site/brasil.elpais.com/portada'),
         (u'Piauí', u'https://piaui.folha.uol.com.br/feed/'),
         (u'OutrasPalavras', u'http://www.outraspalavras.net/feed/'),
