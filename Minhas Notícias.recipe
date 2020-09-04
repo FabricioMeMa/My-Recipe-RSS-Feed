@@ -29,7 +29,6 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 	(u'ponte', u'https://ponte.org/rss'),
 	(u'Deutsche Welle', u'https://rss.dw.com/rdf/rss-br-all'),
 	(u'Jornalistas Livres', u'https://jornalistaslivres.org/rss'),
-	(u'Revista Fórum', u'https://revistaforum.com.br/rss'),
 	(u'Brasil de Fato', u'https://www.brasildefato.com.br/rss2.xml'),
 	(u'Opera Mundi', u'https://operamundi.uol.com.br/rss'),
 	(u'Viomundo', u'https://www.viomundo.com.br/rss'),
