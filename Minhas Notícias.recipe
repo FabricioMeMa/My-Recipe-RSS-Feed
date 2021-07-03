@@ -24,6 +24,8 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         
         #(u'Nexo Jornal', u'https://www.nexojornal.com.br/rss.xml'),
         #(u'El País', u'https://feeds.elpais.com/mrss-s/pages/ep/site/brasil.elpais.com/portada'),
+	(u'PCB', u'https://pcb.org.br/rss'),
+	(u'UJC', u'https://ujc.org.br/rss'),
         (u'Piauí', u'https://piaui.folha.uol.com.br/feed/'),
         (u'OutrasPalavras', u'http://www.outraspalavras.net/feed/'),
 	(u'ponte', u'https://ponte.org/rss'),
@@ -47,7 +49,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         (u'Piseagrama', u'https://piseagrama.org/feed/'),
         (u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
         (u'Revista Ópera', 'https://revistaopera.com.br/rss'),
-        (u'Jacobin', u'https://jacobin.com.br/feed/'),
+        #(u'Jacobin', u'https://jacobin.com.br/feed/'),
 	(u'PCB', u'https://pcb.org.br/rss'),
 	(u'Al Jazeera', u'https://www.aljazeera.com/xml/rss/all.xml'),
 	(u'Blog Boitempo', u'https://blogdaboitempo.com.br/feed'),
