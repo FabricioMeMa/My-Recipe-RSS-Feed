@@ -7,7 +7,7 @@ ebook-convert ~/Documents/News/Script/Git/Minhas\ Notícias.recipe ~/Documents/N
 #notify-send  -t 10000 -i ~/Documentos/News/Script/jornal.png -a 🗞\ Minhas\ Notícias 'Notícias baixadas'
 #cp ~/Documents/News/Minhas\ Notícias-$HOJE.mobi ~/Biblioteca\ do\ calibre/News/Minhas\ Notícias-$HOJE.mobi
 swaks --to $EK -s smtp.gmail.com:587 -tls -au $EM -ap $PS  --header "Subject: Convert" --attach  ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.mobi
-#echo "Minhas notícias de $HOJE" | mailx -r "FabMeMak1ndl3@kindle.com" -a ~/Documents/News/Minhas\ Notícias-$HOJE.mobi -s "Notícias $HOJE" -S smtp="smtp.gmail.com:587" -S smtp-use-starttls -S smtp-auth=login -S smtp-auth-user="fabriciomesalira@gmail.com" -S smtp-auth-password="mdcetcsagjvlmzee" -S ssl-verify=ignore FabMeMak1ndl3@kindle.com 
+#echo "Minhas notícias de $HOJE" | mailx -r "FabMeMak1ndl3@kindle.com" -a ~/Documents/News/Minhas\ Notícias-$HOJE.mobi -s "Notícias $HOJE" -S smtp="smtp.gmail.com:587" -S smtp-use-starttls -S smtp-auth=login -S smtp-auth-user="email@email.com" -S smtp-auth-password="password" -S ssl-verify=ignore sendto@email.com
 #notify-send  -t 10000 -i ~/Documentos/News/Script/jornal.png -a 🗞\ Minhas\ Notícias 'Notícias enviadas para o seu Kindle'
 
 
