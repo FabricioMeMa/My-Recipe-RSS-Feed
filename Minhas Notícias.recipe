@@ -47,7 +47,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 	('Câmara dos Deputados', 'https://www.camara.leg.br/noticias/rss/ultimas-noticias'),
 	(u'Revista Serrote', u'https://revistaserrote.com.br/feed/'),
         (u'Revista ZUM', u'https://revistazum.com.br/feed/'),
-        (u'Cult',u'https://revistacult.uol.com.br/home/feed/'),
+        (u'Revista Cult',u'https://revistacult.uol.com.br/home/rss'),
         (u'Ubu Editora', u'https://blog.ubueditora.com.br/feed/'),
         (u'Piseagrama', u'https://piseagrama.org/feed/'),
         (u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
