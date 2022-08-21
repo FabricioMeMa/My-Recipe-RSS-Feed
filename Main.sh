@@ -3,7 +3,8 @@ PS="$(cat ~/Documents/News/Script/ps.txt)"
 EM="$(cat ~/Documents/News/Script/em.txt)"
 EK="$(cat ~/Documents/News/Script/ek.txt)"
 
-ebook-convert ~/Documents/News/Script/Git/Minhas\ Notícias.recipe ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.epub --output-profile kindle
+ebook-convert ~/Documents/News/Script/Git/Minhas\ Notícias.recipe ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.mobi --output-profile kindle
+ebook-convert ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.mobi ~/Área\ de\ trabalho/Minhas\ Notícias-$HOJE.epub
 #notify-send  -t 10000 -i ~/Documentos/News/Script/jornal.png -a 🗞\ Minhas\ Notícias 'Notícias baixadas'
 #cp ~/Documents/News/Minhas\ Notícias-$HOJE.mobi ~/Biblioteca\ do\ calibre/News/Minhas\ Notícias-$HOJE.epub
 swaks --to $EK -s smtp.gmail.com:587 -tls -au $EM -ap $PS  --header "Subject: Convert" --attach  ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.epub
