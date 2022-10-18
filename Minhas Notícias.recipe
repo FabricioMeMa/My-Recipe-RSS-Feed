@@ -9,7 +9,7 @@ import time
 
 class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 
-    title = '    🗞     '  + time.strftime('%a, %d %b %Y')
+    title = ' 🗞   '  + time.strftime('%a, %d %b %Y')
     oldest_article = 2
     simultaneous_downloads = 20
     max_articles_per_feed = 20
@@ -51,13 +51,15 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         (u'Ubu Editora', u'https://blog.ubueditora.com.br/feed/'),
         (u'Piseagrama', u'https://piseagrama.org/feed/'),
         (u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
+	(u'Giro Latino', 'https://girolatino.substack.com/feed'),
         #(u'Jacobin', u'https://jacobin.com.br/feed/'),
 	(u'Al Jazeera', u'https://www.aljazeera.com/xml/rss/all.xml'),
 	(u'Blog Boitempo', u'https://blogdaboitempo.com.br/feed'),
 	(u'Andreia Sadi | G1', u'https://g1.globo.com/rss/g1/politica/blog/andreia-sadi/'),
         #(u'Folha de SP - Poder ', u'http://feeds.folha.uol.com.br/poder/rss091.xml'),
-        (u'Monica Bergamo | Folha de SP', u'http://feeds.folha.uol.com.br/colunas/monicabergamo/rss091.xml'),
-        (u'Laura Carvalho | Folha de SP', 'https://feeds.folha.uol.com.br/colunas/laura-carvalho/rss091.xml'),
+        (u'Monica Bergamo | Folha de SP', u'http://feeds.folha.uol.com.br/colunas/monicabergamo/rss091.xml'),  
+	(u'Vera Iaconelli | Folha de SP', 'https://feeds.folha.uol.com.br/colunas/vera-iaconelli/rss091.xml'),
+        #(u'Laura Carvalho | Folha de SP', 'https://feeds.folha.uol.com.br/colunas/laura-carvalho/rss091.xml'),
         (u'Nelson de Sá | Folha de SP', 'https://feeds.folha.uol.com.br/colunas/nelsondesa/rss091.xml'),
         #(u'Onbudsman | Folha de SP', u'http://feeds.folha.uol.com.br/colunas/paula-cesarino-costa-ombudsman/rss091.xml'),
 	#('Governo Federal', 'www.gov.br/noticias/ultimas-noticias/RSS'),
