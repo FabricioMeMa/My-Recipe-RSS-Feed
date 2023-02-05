@@ -1,0 +1,35 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+#import string, re
+#from calibre import strftime
+from calibre.web.feeds.recipes import BasicNewsRecipe
+import time
+#from calibre.ebooks.BeautifulSoup import BeautifulSoup
+
+class AdvancedUserRecipe1588814266(BasicNewsRecipe):
+
+    title = ' 🗞   '  + time.strftime('%a, %d %b %Y')
+    oldest_article = 2
+    simultaneous_downloads = 20
+    max_articles_per_feed = 20
+    auto_cleanup   = True
+    remove_javascript =  True
+    remove_empty_feeds = True
+    compress_news_images = True
+    #no_stylesheets = True
+    language = 'pt_BR'
+
+    feeds          = [
+        
+       (u'STAT News', u'https://www.statnews.com/feed/'),
+       (u'Saúde Business', u'https://www.saudebusiness.com/rss.xml'),
+       (u'Mad in Brasil', u'https://madinbrasil.org/feed/'),
+       (u'OutrasPalavras', u'https://outraspalavras.net/feed/'),
+       (u'Medicina SA', u'https://medicinasa.com.br/feed/'),
+       (u'MIT Tech Review', u'https://mittechreview.com.br/feed/'),
+       (u'The Lancet Digital Health', u'https://www.thelancet.com/rssfeed/landig_current.xml'),
+       
+       
+       
+    ]
