@@ -52,7 +52,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         (u'Piseagrama', u'https://piseagrama.org/feed/'),
         (u'Fund. Rosa Luxemburgo', u'https://rosalux.org.br/feed/'),
 	(u'Giro Latino', 'https://girolatino.substack.com/feed'),
-        (u'Jacobin', u'https://jacobin.com.br/feed/'),
+        #(u'Jacobin', u'https://jacobin.com.br/feed/'),
 	(u'Paulo Gala', u'https://www.paulogala.com.br/feed/'),
 	(u'Blog Boitempo', u'https://blogdaboitempo.com.br/feed'),
 	(u'Space Today', u'https://spacetoday.com.br/feed/'),
