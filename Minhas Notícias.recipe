@@ -64,6 +64,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
         (u'Nelson de Sá | Folha de SP', 'https://feeds.folha.uol.com.br/colunas/nelsondesa/rss091.xml'),
 	(u'New Left Review', 'https://newleftreview.org/feed'),
 	(u'Seymour Harsh - Substack', 'https://seymourhersh.substack.com/feed'),
+	(u'Plano Brazil', 'https://www.planobrazil.com/feed/'),
         #(u'Onbudsman | Folha de SP', u'http://feeds.folha.uol.com.br/colunas/paula-cesarino-costa-ombudsman/rss091.xml'),
 	#('Governo Federal', 'www.gov.br/noticias/ultimas-noticias/RSS'),
         #('The Guardian', 'https://www.theguardian.com/international/rss'),
