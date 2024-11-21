@@ -4,7 +4,7 @@ EM="$(cat ~/Documents/News/Script/em.txt)"
 EK="$(cat ~/Documents/News/Script/ek.txt)"
 EKL="$(cat ~/Documents/News/Script/ekl.txt)"
 
-ebook-convert ~/Documents/News/Script/Git/Minhas\ Notícias.recipe ~/Documents/News/Jornal/Minhas\ Noticias-$HOJE.epub --output-profile kindle
+ebook-convert ~/Documents/News/Script/Git/Minhas\ Noticias.recipe ~/Documents/News/Jornal/Minhas\ Noticias-$HOJE.epub --output-profile kindle
 #calibredb add ~/Documents/News/Jornal/Minhas\ Noticias-$HOJE.mobi
 #ebook-convert ~/Documents/News/Jornal/Minhas\ Notícias-$HOJE.mobi ~/Área\ de\ trabalho/Minhas\ Notícias-$HOJE.epub
 #notify-send  -t 10000 -i ~/Documentos/News/Script/jornal.png -a 🗞\ Minhas\ Notícias 'Notícias baixadas'
