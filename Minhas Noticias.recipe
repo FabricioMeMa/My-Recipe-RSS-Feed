@@ -9,7 +9,7 @@ from calibre.ebooks.BeautifulSoup import BeautifulSoup
 
 class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 
-    title = ' Jornal do Dia <br>'  + time.strftime('%a, %d %b %Y')
+    title = ' Jornal do Dia '  + time.strftime('%a, %d %b %Y')
     oldest_article = 2
     simultaneous_downloads = 4
     max_articles_per_feed = 20
