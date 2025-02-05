@@ -9,7 +9,7 @@ from calibre.ebooks.BeautifulSoup import BeautifulSoup
 
 class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 
-    title = ' Jornal do Dia '  + time.strftime('%a, %d %b %Y')
+    title = ' 📰 Jornal do Dia '  + time.strftime('%a, %d %b %Y')
     oldest_article = 2
     simultaneous_downloads = 4
     max_articles_per_feed = 20
@@ -40,9 +40,11 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
 	(u'APública', u'https://apublica.org/category/portugues/feed/'),
 	(u'Deutsche Welle', u'https://rss.dw.com/rdf/rss-br-all'),
 	(u'Carta Capital', u'https://www.cartacapital.com.br/feed'),
+	(u'Pátria Latina', u'https://patrialatina.com.br/feed/'),
 	(u'Rede Brasil Atual', u'https://www.redebrasilatual.com.br/rss'),
 	(u'Tijolaço', u'https://tijolaco.net/rss'),
         (u'Le Monde Diplomatique', u'https://diplomatique.org.br/feed/'),
+	(u'China2Brazil', u'https://china2brazil.com.br/feed/'),
         (u'The Intercept Br', u'https://theintercept.com/feed/?lang=pt'),
 	('Câmara dos Deputados', 'https://www.camara.leg.br/noticias/rss/ultimas-noticias'),
 	(u'Revista Serrote', u'https://revistaserrote.com.br/feed/'),
