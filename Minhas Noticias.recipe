@@ -13,7 +13,7 @@ class AdvancedUserRecipe1588814266(BasicNewsRecipe):
     oldest_article = 2
     simultaneous_downloads = 4
     max_articles_per_feed = 20
-    auto_cleanup   = True
+    #auto_cleanup   = True
     remove_javascript =  True
     remove_empty_feeds = True
     compress_news_images = True
